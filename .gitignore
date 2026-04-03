@@ -1,0 +1,53 @@
+# ══════════════════════════════════════════════════════════════════
+# NOSSIS Screenshot Automático — .gitignore
+# ══════════════════════════════════════════════════════════════════
+
+# Saídas geradas pelo script
+nossis_prints_*/
+comparacoes/
+
+# Sessões salvas (contém cookies — nunca commitar)
+.nossis_sessions/
+
+# Logs
+logs/
+
+# Screenshots avulsos
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Relatórios gerados
+relatorio_*.html
+relatorio_*.pdf
+README.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+.env
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Temporários
+*.tmp
+*.temp
+*_temp/
